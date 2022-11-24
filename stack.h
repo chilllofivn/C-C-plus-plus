@@ -77,7 +77,7 @@ public:
     }
 
     void clear() {
-        while(this->top!=0) {
+        while(this->top!=null) {
             pop();
         }
     }
